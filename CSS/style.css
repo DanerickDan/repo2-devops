@@ -1,0 +1,175 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+/* Nav */
+a {
+    text-decoration: none;
+}
+
+
+.nav {
+    font-size: larger;
+    display: flex;
+    border-bottom: solid 1px;
+    font-weight: bold; 
+    margin-top: 10px;
+}
+
+.nav > a {
+    color: #000;
+}
+
+.about-cl {
+    margin-right: 10%;
+    margin-left: 2%;
+}
+
+.logo {
+    margin-left: 3%;
+    margin-right: 8%;
+}
+
+.login {
+    margin-left: auto;
+    margin-right: 2%;
+    margin-bottom: 18px;
+    border-bottom: solid 1px #000;
+}
+
+.create {
+    margin-right: 2%;
+    background-color: #d9d9d9;
+    padding: 5px;
+    border-radius: 13px;
+    margin-bottom: 10px;
+}
+
+/* Tipo de usuario */
+
+.type-user {
+    display: flex;
+    position: static;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 5vw;
+}
+
+.type-user > button {
+    margin-right: 10px;
+}
+
+.type-user-button {
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 8px;
+    padding: 7px;
+}
+
+/* Home principal */
+
+.texto {
+    border-top: 1px solid;
+    border-image: linear-gradient(to left, transparent 70%, black 10%);
+    border-image-slice: 1;
+    max-width: 50%; /* Establece un ancho máximo del 50% del contenedor */
+    padding-top: 10px; /* Añade espacio superior para el borde */
+    margin-left: 5%;
+}
+
+/* Mejorando el texto principal*/
+
+.texto-prin {
+    margin-top: 4px;
+    padding: 1px;
+    margin-top: 0; /* Elimina el margen superior predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+    font-size: 35px;
+}
+
+.ver-alcance {
+    width: 100px;
+    background-color: #000;
+    padding: 7px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Contenedor de home sin change type */
+
+.texto-home{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5em;
+}
+
+
+
+.cuadro-izquierdo {
+    display: flex;
+    width: 10em; /* Set the width of the gray box */
+    height: 7em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #d9d9d9;
+    border-radius: 11px;
+    font-weight: bold;
+    margin-left: 17%;
+}
+
+.cuadro-izquierdo > img {
+    width: 100%;
+    height: auto;
+    margin-left: 70%;
+}
+
+.cuadro-izquierdo > span {
+    margin-left: 6%;
+}
+
+/* icon del cuadro izquiedo*/
+
+#icon-maletin {
+    width: 32px;
+    height: 32px;
+}
+
+.container-img-home {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se envuelvan */
+    width: 30%;
+    height: 30vh;
+    position: relative;
+}
+
+.container-img-home img {
+    width: 45%; /* Establece el ancho de las imágenes al 50% del contenedor */
+    height: 15rem; /* Mantiene la proporción de aspecto */
+}
+
+/* imagenes del home  */
+#img-delantera {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+#img-trasera {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 10px;
+    z-index: 0;
+    margin-right: 150px;
+}
+
